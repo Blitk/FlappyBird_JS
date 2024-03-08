@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding:0;
+}
+
+#corpo{
+  background-color: lightBlue;
+  width: 1360px;
+  height: 642px;
+  position: fixed;
+}
+
+#bird{
+  background-color: yellow;
+  width: 25%;
+  color: yellow;
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  margin-left: 3%;
+  margin-top: 35%; /* 35%(476px) is the lower, 0%(0px) is the higher, increasing 5%(68px)*/
+  border: 3px solid black;
+}
+
+.obstaculocima{
+  background-color: brown;
+  color: brown;
+  position: absolute;
+  width: 140px;
+  height: 100px;
+  display: block;
+  margin-left: 70%;
+  top: 0;
+  border-radius: 15px;
+  border: 3px solid black;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.obstaculobaixo{
+  background-color: brown;
+  color: brown;
+  position: absolute;
+  width: 140px;
+  height: 350px;
+  display: block;
+  margin-left: 70%;
+  bottom: 0;
+  border-radius: 15px;
+  border: 3px solid black;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
